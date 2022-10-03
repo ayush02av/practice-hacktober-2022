@@ -1,0 +1,111 @@
+body{
+    background-color: #000000;
+    background-image: url("assets/background/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    width:max-content;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    background-color: rgb(206, 206, 206);
+        
+}
+
+
+a{
+    text-decoration: none;
+    /*3d effect*/
+    text-shadow: 1px 1px 1px #212121;
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    /*Smooth Text*/
+    -webkit-text-stroke: 1px rgb(198, 198, 198);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#navbar{
+    float: left;
+    margin: 5px;
+
+    
+    text-shadow: 5px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navbar:hover{
+    background: linear-gradient(rgba(6, 255, 189, 0.5), rgba(6, 255, 189, 0.5) 50%);
+    border: 2px;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    display: block;
+    text-align: center;
+    /*Smooth Text*/
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px 1px #000000;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-size: larger;
+    font-family: 'sastrugi', sans-serif;
+}
+h3{
+    margin: 5px;
+}
+article{
+    margin: 5px;
+    
+    border: #212121;
+}
+#paragraph{
+    color: white;
+    text-align:center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap;
+    margin: 5px;
+    text-decoration: double;
+    text-emphasis:inherit;
+    text-emphasis-style: filled;
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#steps{
+    display:block;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap;
+    margin: 5px;
+
+
+}
